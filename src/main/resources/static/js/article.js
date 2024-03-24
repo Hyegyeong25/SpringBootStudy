@@ -53,10 +53,9 @@ if (createButton) {
                 title: document.getElementById('title').value,
                 content: document.getElementById('content').value
             })
-        })
-            .then(() => {
-                alert('등록 완료되었습니다.');
-                location.replace('/articles');
-            });
+        }).then(() => {
+            alert('등록 완료되었습니다.');
+            location.replace('/articles');
+        });
     });
 }
