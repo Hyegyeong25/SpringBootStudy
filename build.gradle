@@ -44,6 +44,9 @@ dependencies {
     // OAuth2를 사용하기 위한 스타터 추가
     implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
 
+    //스프링부트 프로젝트의 클래스 또는 리소스 수정 후 자동으로 재시작하기
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+
 
 }
 

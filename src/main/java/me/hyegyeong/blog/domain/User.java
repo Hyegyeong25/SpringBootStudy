@@ -30,7 +30,6 @@ public class User implements UserDetails { // UserDetails 상속받아 인증객
     @Column(name = "password", nullable = false)
     private String password;
 
-
     // 사용자 이름
     @Column(name = "nickname", unique = true)
     private String nickname;

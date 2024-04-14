@@ -29,7 +29,7 @@ public class CookieUtil {
                 cookie.setValue("");
                 cookie.setPath("/");
                 cookie.setMaxAge(0);
-                response.addCookie(cookie); // 재생성
+                response.addCookie(cookie); // 재생성 되자마자 만료 처리가 되는 쿠키, delete 효과
             }
         }
     }
